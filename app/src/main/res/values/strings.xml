@@ -14,4 +14,6 @@
 	<string name="control_mode_direct">Set direct</string>
 	<string name="control_mode_fading">Set fading</string>
 	<string name="control_mode_disco">DISCO!</string>
+	<string name="label_trgb">Target RGB</string>
+	<string name="label_delay">Delay</string>
 </resources>

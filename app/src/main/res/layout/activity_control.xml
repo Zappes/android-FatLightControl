@@ -54,6 +54,66 @@
 		android:spinnerMode="dropdown"
 		android:layout_margin="5dp"/>
 
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="@string/label_trgb"
+			android:id="@+id/trgbLabel"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/trgbEditText"
+			android:digits="0123456789ABCDEFabcdef"
+			android:layout_marginLeft="5dp"
+			android:layout_weight="0.5"
+			android:maxLength="6"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Set"
+			android:id="@+id/trgbButton"
+			android:layout_marginLeft="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="@string/label_delay"
+			android:id="@+id/delayLabel"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/delayEditText"
+			android:digits="0123456789ABCDEFabcdef"
+			android:layout_marginLeft="5dp"
+			android:layout_weight="0.5"
+			android:maxLength="2"
+			/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Set"
+			android:id="@+id/delayButton"
+			android:layout_marginLeft="5dp"/>
+	</LinearLayout>
+
 	<TextView
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
