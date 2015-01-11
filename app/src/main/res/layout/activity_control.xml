@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_alignEnd="@+id/offButton"
+	android:layout_below="@+id/connectionTextView"
+	android:orientation="vertical"
+	tools:context="net.bluephod.fatlightcontrol.ControlActivity"
+	android:gravity="fill_horizontal">
+
+	<TextView
+		android:id="@+id/connectionTextView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/offButton"
+		android:layout_centerHorizontal="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginBottom="8dp"
+		android:layout_margin="5dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp">
+
+		<Button
+			android:id="@+id/onButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:enabled="false"
+			android:text="@string/control_labelOnButton"
+			android:layout_weight="0.5" />
+
+		<Button
+			android:id="@+id/offButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignStart="@+id/onButton"
+			android:layout_below="@+id/onButton"
+			android:enabled="false"
+			android:text="@string/control_labelOffButton"
+			android:layout_weight="0.5" />
+
+	</LinearLayout>
+
+	<Spinner
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/modeSpinner"
+		android:clickable="true"
+		android:spinnerMode="dropdown"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/resultTextView"
+		android:layout_margin="5dp"/>
+
+</LinearLayout>

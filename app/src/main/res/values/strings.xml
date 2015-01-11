@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">FatLightControl</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="err_bluetooth_not_available">Bluetooth not available</string>
+	<string name="err_bluetooth_no_devices">No bonded devices available</string>
+	<string name="title_activity_control">ControlActivity</string>
+	<string name="control_labelOnButton">Anschalten</string>
+	<string name="control_labelOffButton">Abschalten</string>
+	<string name="err_fatlight_not_specified">FatLight not specified</string>
+	<string name="err_fatlight_not_connected">FatLight is not connected</string>
+	<string name="control_mode_direct">Set direct</string>
+	<string name="control_mode_fading">Set fading</string>
+	<string name="control_mode_disco">DISCO!</string>
+</resources>
